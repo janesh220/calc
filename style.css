@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+}
+input{
+    grid-column: span 4;
+}
+button{
+    margin: 10px;
+}
